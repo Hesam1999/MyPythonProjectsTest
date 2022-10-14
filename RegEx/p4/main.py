@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+import re 
+
+txt = "hello planet"
+
+#Search for a sequence that starts with "he", followed by two (any) charactees. and an "o":
+
+x = re.findall("he..o", txt)
+print(x)
