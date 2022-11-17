@@ -2,7 +2,7 @@
 
 import re
 
-#Check if the string has any + characters:
+#Return a list containing every occurrence of "ai":
 
 txt = "The rain in Spain"
 
